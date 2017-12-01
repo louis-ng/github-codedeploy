@@ -1,0 +1,9 @@
+version: 0.0
+os: linux
+
+files:
+  - source: ./files
+    destination: /home/data/test
+
+permissions:
+  - object: /home/ec2-user/data/test
